@@ -5,9 +5,6 @@ app = Flask(__name__)
 logging.basicConfig(filename='application.log', level=logging.INFO,
     format='%(levelname)s:%(message)s')
 
-app = Flask(__name__)
-
-
 app.config['MYSQL_HOST'] = 'database-2.cshux5aaxeaw.us-east-1.rds.amazonaws.com' 
 app.config['MYSQL_USER'] = 'admin'
 app.config['MYSQL_PASSWORD'] = 'rishi123'
