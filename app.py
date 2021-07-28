@@ -1,7 +1,6 @@
 from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 import logging
-import table
 app = Flask(__name__)
 logging.basicConfig(filename='application.log', level=logging.INFO,
     format='%(levelname)s:%(message)s')
